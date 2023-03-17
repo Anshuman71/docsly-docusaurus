@@ -8,7 +8,10 @@ export default function Root({ children }) {
   return (
     <>
       {children}
-      <Docsly publicId="asdfasdfasdf" pathname={pathname} />
+      <Docsly
+        publicId="public_bsKNacuWYmCdRNEEt5qyI8-XdYxoURcugzU3"
+        pathname={pathname}
+      />
     </>
   );
 }
