@@ -15,7 +15,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docsly/base": "latest",
+    "@docsly/react": "latest",
     "@docusaurus/core": "2.3.1",
     "@docusaurus/preset-classic": "2.3.1",
     "@mdx-js/react": "^1.6.22",
