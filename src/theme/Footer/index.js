@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "@theme-original/Footer";
+
 import Huddle from "@huddlerun/react";
 import "@huddlerun/react/styles.css";
 import { useLocation } from "@docusaurus/router";
