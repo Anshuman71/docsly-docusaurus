@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "@theme-original/Footer";
-import Docsly from "@docsly/react";
-import "@docsly/react/styles.css";
+import Huddle from "@huddlerun/react";
+import "@huddlerun/react/styles.css";
 import { useLocation } from "@docusaurus/router";
 
 export default function FooterWrapper(props) {
@@ -9,8 +9,8 @@ export default function FooterWrapper(props) {
   return (
     <>
       <Footer {...props} />
-      <Docsly
-        publicId="public_dwphDZw2KQpC1OzeWVb7WLBO9UnUhvHVvWWh4dcHKR2xxhws7UcVdLVQfQljzQma"
+      <Huddle
+        frontendKey="huddle_fe_liwm89xxmXdgKydAGal6SYnfbzESuM1Z1Ecq8FIf"
         pathname={pathname}
       />
     </>
